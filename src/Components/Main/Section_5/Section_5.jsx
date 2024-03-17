@@ -24,7 +24,7 @@ function Section_5() {
                             <p>&#x2605; &#x2605; &#x2605; &#x2605;  &#x2606;</p>
                             <p>Жора Ремінгтон</p>
                         </div>
-                        <p className='section5ContentCart1Rewiew'>
+                        <p className='section5ContentCartRewiew'>
                             Дуже задоволений якістю обслуговування і самою продукцією. Купували термобілизну у
                             подарунок, друзі...
                         </p>
@@ -34,7 +34,7 @@ function Section_5() {
                             <p>&#x2605; &#x2605; &#x2605; &#x2605;  &#x2606;</p>
                             <p>Жора Ремінгтон</p>
                         </div>
-                        <p className='section5ContentCart2Rewiew'>
+                        <p className='section5ContentCartRewiew'>
                             Дуже задоволений якістю обслуговування і самою продукцією. Купували термобілизну у
                             подарунок, друзі...
                         </p>
@@ -44,7 +44,7 @@ function Section_5() {
                             <p>&#x2605; &#x2605; &#x2605; &#x2605;  &#x2606;</p>
                             <p>Жора Ремінгтон</p>
                         </div>
-                        <p className='section5ContentCart3Rewiew'>
+                        <p className='section5ContentCartRewiew'>
                             Дуже задоволений якістю обслуговування і самою продукцією. Купували термобілизну у
                             подарунок, друзі...
                         </p>
@@ -54,7 +54,7 @@ function Section_5() {
                             <p>&#x2605; &#x2605; &#x2605; &#x2605;  &#x2606;</p>
                             <p>Жора Ремінгтон</p>
                         </div>
-                        <p className='section5ContentCart4Rewiew'>
+                        <p className='section5ContentCartRewiew'>
                             Дуже задоволений якістю обслуговування і самою продукцією. Купували термобілизну у
                             подарунок, друзі...
                         </p>

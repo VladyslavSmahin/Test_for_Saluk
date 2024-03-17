@@ -8,7 +8,12 @@
     align-items: center;
     .section4ContentHeader {
       font-family: var(--font-roboto-medium);
+      font-weight: 500;
       font-size: 38px;
+      line-height: 132%;
+      font-variant: small-caps;
+      text-align: center;
+      color: var(--black-80);
       margin-bottom: 30px;
     }
     .form{
@@ -20,6 +25,13 @@
           border-radius: 15px;
           padding-left: 20px;
         }
+        .section4Input::placeholder{
+          font-weight: 300;
+          font-size: 16px;
+          line-height: 156%;
+          font-variant: small-caps;
+          color: var(--black-40);
+        }
         .formButton{
           position: absolute;
           top: 0;
@@ -30,16 +42,21 @@
           height: 100%;
           background-color: var(--black-60);
           color: var(--white);
+          font-variant: small-caps;
+          font-weight: 400;
+          line-height: 150%;
         }
       }
     }
 
   }
   .section4Content p {
-    font-family: var(--font-inter-black);
-    color: var(--black-80);
     font-weight: 400;
-    margin-bottom: 40px;
+    font-size: 16px;
     line-height: 150%;
+    font-variant: small-caps;
+    text-align: center;
+    color: var(--black-80);
+    margin-bottom: 40px;
   }
 }

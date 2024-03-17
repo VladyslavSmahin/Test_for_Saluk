@@ -1,10 +1,12 @@
 .header {
+  font-family: var(--font-roboto-regular);
 position: relative;
   z-index: 1;
   a{
     color: var(--black-80);
   }
   .headerSection1{
+    font-size: 12px;
     background-color: #343434;
     color: var(--white);
     a{

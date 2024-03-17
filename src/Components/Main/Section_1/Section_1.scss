@@ -39,6 +39,14 @@
           .slide1Content_1 {
             font-size: 65px;
           }
+          .slide1Content_1 p:nth-child(1){
+            font-family: var(--font-inter-black);
+            font-weight: 900;
+          }
+          .slide1Content_1 p:nth-child(2){
+            font-family: var(--font-inter-regular);
+            font-weight: 300;
+          }
 
           .slide1Content_2 {
             text-align: center;

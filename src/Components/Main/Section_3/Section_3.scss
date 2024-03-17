@@ -20,8 +20,15 @@
           margin-left: 30px;
         }
 
-        .section3ContentText2Arrows p:last-child {
+        .section3ContentText2Arrows button:nth-child(1) {
+          background: none;
+          border: none;
+        }
+
+        .section3ContentText2Arrows button:nth-child(2) {
           margin-left: 20px;
+          background: none;
+          border: none;
         }
 
         .section3ContentText2numbers p:nth-child(1),
@@ -42,6 +49,10 @@
       .CartName {
         font-size: 20px;
         margin-bottom: 20px;
+        font-weight: 500;
+        line-height: 130%;
+        font-variant: small-caps;
+        color: var(--black-80);
       }
 
       .CartDescription {
@@ -49,11 +60,40 @@
 
         .CartDescriptionGender {
           margin-bottom: 10px;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 150%;
+          font-variant: small-caps;
+          color: var(--black-60);
+        }
+        .CartDescriptionOther{
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 150%;
+          font-variant: small-caps;
+          color: var(--black-60);
         }
       }
 
       .price {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 200%;
+        font-variant: small-caps;
         color: #4aaa4e;
+      }
+      .active{
+        background-color: rgba(0, 0, 0, 0.1);
+        transition: 1s;
+        transform: scale(1.03);
+      }
+      .slideImgHeart{
+        position: relative;
+        top: -411px;
+        right: -321px;
+        background-color: var(--black-10);
+        padding: 10px;
+        border-radius: 50%;
       }
     }
   }

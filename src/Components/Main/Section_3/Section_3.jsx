@@ -1,6 +1,49 @@
-import './Section_3.scss'
+import React, { useState } from "react";
+import './Section_3.scss';
 
 function Section_3() {
+    const [activeSlide, setActiveSlide] = useState(0);
+
+    const slides = [
+        {
+            img: '../../../../public/Cart1.png',
+            imgHeart: '../../../../public/Heart.png',
+            name: 'Термобілизна для бодібілдерів',
+            gender: 'Для чоловіків',
+            other: '2 кольори',
+            price: '4000грн'
+        },
+        {
+            img: '../../../../public/Cart2.png',
+            imgHeart: '../../../../public/Heart.png',
+            name: 'Майка для бодібілдерів',
+            gender: 'Для жінок',
+            other: '2 кольори',
+            price: '1100грн'
+        },
+        {
+            img: '../../../../public/Cart3.png',
+            imgHeart: '../../../../public/Heart.png',
+            name: 'Ланцюжок для бодібілдерів',
+            gender: 'Аксесуари',
+            other: '30 кг.',
+            price: '2000грн'
+        }
+    ];
+
+    const nextSlide = () => {
+        const nextIndex = activeSlide === slides.length - 1 ? 0 : activeSlide + 1;
+        setActiveSlide(nextIndex);
+    };
+
+    const prevSlide = () => {
+        const prevIndex = activeSlide === 0 ? slides.length - 1 : activeSlide - 1;
+        setActiveSlide(prevIndex);
+    };
+
+    const handleClick = (index) => {
+        setActiveSlide(index);
+    };
 
     return (
         <section className='section3'>
@@ -11,48 +54,35 @@ function Section_3() {
                     </p>
                     <div className='section3ContentText2'>
                         <div className='section3ContentText2numbers'>
-                            <p>01</p>
+                            <p>{activeSlide + 1}</p>
                             <p>/</p>
-                            <p>03</p>
+                            <p>{slides.length}</p>
                         </div>
                         <div className='section3ContentText2Arrows'>
-                            <p>&#10229;</p>
-                            <p>&#10230;</p>
+                            <button onClick={prevSlide}><p>&#10229;</p></button>
+                            <button onClick={nextSlide}><p>&#10230;</p></button>
                         </div>
                     </div>
                 </div>
                 <div className='section3ContentCarts'>
-                    <div className='section3ContentCart1'>
-                        <img src='../../../../public/Cart1.png' alt='img'/>
-                        <p className='CartName'>Термобілизна для бодібілдерів</p>
-                        <div className='CartDescription'>
-                            <p className='CartDescriptionGender'>Для чоловіків</p>
-                            <p className='CartDescriptionOther'>2 кольори</p>
+                    {slides.map((slide, index) => (
+                        <div key={index}
+                             className={`slide slide${index + 1} ${activeSlide === index ? 'active' : ''}`}
+                             onClick={() => handleClick(index)}>
+                            <img src={slide.img} alt='img'/>
+                            <img src={slide.imgHeart} className='slideImgHeart' alt='img'/>
+                            <p className='CartName'>{slide.name}</p>
+                            <div className='CartDescription'>
+                                <p className='CartDescriptionGender'>{slide.gender}</p>
+                                <p className='CartDescriptionOther'>{slide.other}</p>
+                            </div>
+                            <p className='price'>{slide.price}</p>
                         </div>
-                        <p className='price'>4000грн</p>
-                    </div>
-                    <div className='section3ContentCart2'>
-                        <img src='../../../../public/Cart2.png' alt='img'/>
-                        <p className='CartName'>Майка для бодібілдерів</p>
-                        <div className='CartDescription'>
-                            <p className='CartDescriptionGender'>Для жінок</p>
-                            <p className='CartDescriptionOther'>2 кольори</p>
-                        </div>
-                        <p className='price'>1100грн</p>
-                    </div>
-                    <div className='section3ContentCart3'>
-                        <img src='../../../../public/Cart3.png' alt='img'/>
-                        <p className='CartName'>Ланцюжок для бодібілдерів</p>
-                        <div className='CartDescription'>
-                            <p className='CartDescriptionGender'>Аксесуари</p>
-                            <p className='CartDescriptionOther'>30 кг.</p>
-                        </div>
-                        <p className='price'>2000грн</p>
-                    </div>
+                    ))}
                 </div>
             </div>
         </section>
-    )
+    );
 }
 
-export default Section_3
+export default Section_3;

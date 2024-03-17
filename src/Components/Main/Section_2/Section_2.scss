@@ -6,12 +6,19 @@
       padding: 74px 0;
     }
     .section2ContentText h3{
+      max-width: 570px;
+      font-weight: 500;
       margin-bottom: 30px;
       font-size: 38px;
+      color: var(--black-80);
+      font-variant: small-caps;
     }
     .section2ContentText p{
       margin-bottom: 40px;
+      font-weight: 400;
       line-height: 150%;
+      color: var(--black-60);
+      font-variant: small-caps;
     }
     .section2ContentText a{
       padding: 20px 35px;
