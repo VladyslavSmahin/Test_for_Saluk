@@ -1,0 +1,45 @@
+.section4 {
+  .section4Content {
+    display: flex;
+    flex-direction: column;
+    max-width: 570px;
+    margin: auto;
+    padding: 90px 0 108px;
+    align-items: center;
+    .section4ContentHeader {
+      font-family: var(--font-roboto-medium);
+      font-size: 38px;
+      margin-bottom: 30px;
+    }
+    .form{
+      .inputWrapper{
+        position: relative;
+        .section4Input{
+          width: 551px;
+          height: 51px;
+          border-radius: 15px;
+          padding-left: 20px;
+        }
+        .formButton{
+          position: absolute;
+          top: 0;
+          right: -5px;
+          border-radius: 15px;
+          padding: 20px 35px;
+          width: 30%;
+          height: 100%;
+          background-color: var(--black-60);
+          color: var(--white);
+        }
+      }
+    }
+
+  }
+  .section4Content p {
+    font-family: var(--font-inter-black);
+    color: var(--black-80);
+    font-weight: 400;
+    margin-bottom: 40px;
+    line-height: 150%;
+  }
+}

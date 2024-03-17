@@ -1,0 +1,56 @@
+.section5 {
+  margin-bottom: 157px;
+  .section5Content {
+    display: flex;
+    flex-direction: column;
+
+    .section5ContentHeader {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+      .section5ContentText2 {
+        display: flex;
+
+        .section5ContentText2_1 {
+          display: flex;
+          margin-right: 30px;
+        }
+        .section5ContentText2_1 p:nth-child(1){
+          margin-right: 5px;
+        }
+        .section5ContentText2_1 p:nth-child(2){
+          margin-right: 5px;
+        }
+        .section5ContentText2_2{
+          display: flex;
+        }
+        .section5ContentText2_2 p:nth-child(1){
+          margin-right: 20px;
+        }
+      }
+
+    }
+    .section5ContentCarts {
+      display: flex;
+      justify-content: space-between;
+      .section5ContentCart{
+        max-width: 270px;
+        box-sizing: border-box;
+        padding: 10px 37px 30px;
+        border: 1px var(--black-100) solid;
+        border-radius: 10px;
+        .section5ContentCartName{
+          position: relative;
+          left: 60px;
+          top: -27px;
+        }
+        .section5ContentCartName::before{
+          content: url("../../../../public/Mask.png");
+          position: relative;
+          left: -60px;
+          top: 50px;
+        }
+      }
+    }
+  }
+}

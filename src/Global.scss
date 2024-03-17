@@ -1,0 +1,94 @@
+:root {
+  --font-roboto-light: 'Roboto-Light', sans-serif;
+  --font-roboto-bold: 'Roboto-Bold', sans-serif;
+  --font-roboto-medium: 'Roboto-Medium', sans-serif;
+  --font-roboto-regular: 'Roboto-Regular', sans-serif;
+  --font-montserrat-medium: 'Montserrat-Medium', sans-serif;
+  --font-inter-light: 'Inter-Light', sans-serif;
+  --font-inter-regular: 'Inter-Regular', sans-serif;
+  --font-inter-black: 'Inter-Black', sans-serif;
+}
+:root {
+  --black-100: #000;
+  --black-80: #343434;
+  --black-60: #626262;
+  --black-40: #959595;
+  --black-20: #ccc;
+  --white: #fff;
+  --black-10: #e8e8e8;
+}
+
+@font-face {
+  font-family: var(--font-roboto-light);
+  src: url('../public/fonts/Roboto-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: var(--font-roboto-bold);
+  src: url('../public/fonts/Roboto-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: var(--font-roboto-medium);
+  src: url('../public/fonts/Roboto-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: var(--font-roboto-regular);
+  src: url('../public/fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: var(--font-montserrat-medium);
+  src: url('../public/fonts/Montserrat-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: var(--font-inter-light);
+  src: url('../public/fonts/Inter-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: var(--font-inter-regular);
+  src: url('../public/fonts/Inter-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: var(--font-inter-black);
+  src: url('../public/fonts/Inter-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html{
+  font-family: var(--font-roboto-light);
+}
+body, ul, p, h3, h4, input{
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  max-width: 1170px;
+  margin: auto;
+}
+
