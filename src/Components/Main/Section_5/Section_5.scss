@@ -3,7 +3,7 @@
   .section5Content {
     display: flex;
     flex-direction: column;
-
+    overflow: hidden;
     .section5ContentHeader {
       display: flex;
       justify-content: space-between;
@@ -33,12 +33,15 @@
     .section5ContentCarts {
       display: flex;
       justify-content: space-between;
+      transition: transform 0.5s ease;
       .section5ContentCart{
         max-width: 270px;
         box-sizing: border-box;
         padding: 10px 37px 30px;
         border: 1px var(--black-100) solid;
         border-radius: 10px;
+        overflow: hidden;
+
         .section5ContentCartName{
           position: relative;
           left: 60px;
