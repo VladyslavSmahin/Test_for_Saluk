@@ -6,24 +6,24 @@ function Section_3() {
 
     const slides = [
         {
-            img: '../../../../public/Cart1.png',
-            imgHeart: '../../../../public/Heart.png',
+            img: '/Cart1.png',
+            imgHeart: '/Heart.png',
             name: 'Термобілизна для бодібілдерів',
             gender: 'Для чоловіків',
             other: '2 кольори',
             price: '4000грн'
         },
         {
-            img: '../../../../public/Cart2.png',
-            imgHeart: '../../../../public/Heart.png',
+            img: '/Cart2.png',
+            imgHeart: '/Heart.png',
             name: 'Майка для бодібілдерів',
             gender: 'Для жінок',
             other: '2 кольори',
             price: '1100грн'
         },
         {
-            img: '../../../../public/Cart3.png',
-            imgHeart: '../../../../public/Heart.png',
+            img: '/Cart3.png',
+            imgHeart: '/Heart.png',
             name: 'Ланцюжок для бодібілдерів',
             gender: 'Аксесуари',
             other: '30 кг.',

@@ -14,13 +14,13 @@ function Footer() {
                         </div>
                         <div className='socials'>
                             <a href='#' target="_blank">
-                                <img src='../../../public/Inst.png' alt="img"/>
+                                <img src='/Inst.png' alt="img"/>
                             </a>
                             <a href='#' target="_blank">
-                                <img src='../../../public/Viber.png' alt="img"/>
+                                <img src='/Viber.png' alt="img"/>
                             </a>
                             <a href='#' target="_blank">
-                                <img src='../../../public/Telegram.png' alt="img"/>
+                                <img src='/Telegram.png' alt="img"/>
                             </a>
                         </div>
                     </div>

@@ -19,7 +19,7 @@ function Header() {
             <div className='headerSection2'>
                 <div className='headerSection2Content container'>
                     <div>
-                        <img src='../../../public/Logo.png' alt='img'/>
+                        <img src='/Logo.png' alt='img'/>
                     </div>
                     <div className='headerNav'>
                         <nav>

@@ -33,7 +33,7 @@ function Slider() {
             <div className="slider-container">
                 <div className="slider" ref={sliderRef}>
                     <div className="slide slide1">
-                        <img className="slideImg slide1Img" src="../../../../public/Slider_Image.jpg" alt="img" />
+                        <img className="slideImg slide1Img" src="/Slider_Image.jpg" alt="img" />
                         <div className='slide1Content'>
                             <div className='slide1Content_1'>
                                 <p>Швидше.<br />Вище.<br />Сильніше.</p>
@@ -46,15 +46,15 @@ function Slider() {
                         </div>
                     </div>
                     <div className="slide slide2">
-                        <img className="slideImg slide2Img" src="../../../../public/Slider_Image.jpg" alt="img" />
+                        <img className="slideImg slide2Img" src="/Slider_Image.jpg" alt="img" />
                     </div>
                 </div>
                 <div className='slider_arrows'>
                     <button className="slider-btn slider-btn-left" onClick={prevSlide}>
-                        <img className="sliderArrowLeft" src="../../../../public/Arrow_right.png" alt="arrow" />
+                        <img className="sliderArrowLeft" src="/Arrow_right.png" alt="arrow" />
                     </button>
                     <button className="slider-btn slider-btn-right" onClick={nextSlide}>
-                        <img className="sliderArrowRight" src="../../../../public/Arrow_right.png" alt="arrow" />
+                        <img className="sliderArrowRight" src="/Arrow_right.png" alt="arrow" />
                     </button>
                 </div>
             </div>
