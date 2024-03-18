@@ -37,8 +37,8 @@ function Header() {
                            <label htmlFor='seachInput'></label>
                            <input className='searchInput' id='searchInput' name='searchInpt' type='text'/>
                        </form>
-                        <a href='#'><img src='../../../public/Heart.png' alt=''/></a>
-                        <a href='#'><img src='../../../public/bag.png' alt=''/></a>
+                        <a href='#'><img src='/Heart.png' alt=''/></a>
+                        <a href='#'><img src='/bag.png' alt=''/></a>
                     </div>
                 </div>
             </div>
