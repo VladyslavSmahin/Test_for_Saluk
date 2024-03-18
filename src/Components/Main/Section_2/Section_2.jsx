@@ -11,7 +11,7 @@ function Section_2() {
                     <a href='#' title='До каталогу'>До каталогу</a>
                 </div>
                 <div>
-                    <img src='/Section2Photo.png' alt='img'/>
+                    <img src='./Section2Photo.png' alt='img'/>
                 </div>
             </div>
         </section>

@@ -19,7 +19,7 @@ function Header() {
             <div className='headerSection2'>
                 <div className='headerSection2Content container'>
                     <div>
-                        <img src='/Logo.png' alt='img'/>
+                        <img src='./Logo.png' alt='img'/>
                     </div>
                     <div className='headerNav'>
                         <nav>
@@ -37,8 +37,8 @@ function Header() {
                            <label htmlFor='seachInput'></label>
                            <input className='searchInput' id='searchInput' name='searchInpt' type='text'/>
                        </form>
-                        <a href='#'><img src='/Heart.png' alt=''/></a>
-                        <a href='#'><img src='/bag.png' alt=''/></a>
+                        <a href='#'><img src='./Heart.png' alt=''/></a>
+                        <a href='#'><img src='./bag.png' alt=''/></a>
                     </div>
                 </div>
             </div>
